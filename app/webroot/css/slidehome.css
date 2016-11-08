@@ -1,0 +1,38 @@
+        .jssorb01 {
+            position: absolute;
+        }
+        .jssorb01 div, .jssorb01 div:hover, .jssorb01 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 100px;
+            height: 12px;
+            filter: alpha(opacity=70);
+            opacity: .7;
+            overflow: hidden;
+            cursor: pointer;
+            border: #000 1px solid;
+        }
+        .jssorb01 div { background-color: black; }
+        .jssorb01 div:hover, .jssorb01 .av:hover { background-color: black; }
+        .jssorb01 .av { background-color: white; }
+        .jssorb01 .dn, .jssorb01 .dn:hover { background-color:orange;box-shadow: 0px 6px 12px 6px cyan;}
+
+        .jssora13l, .jssora13r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 40px;
+            height: 50px;
+            cursor: pointer;
+            background: url('/img/Arrow/a09.png') no-repeat;
+            overflow: hidden;
+        }
+        .jssora13l { background-position: -10px -35px; }
+        .jssora13r { background-position: -70px -35px; }
+        .jssora13l:hover { background-position: -130px -35px; }
+        .jssora13r:hover { background-position: -190px -35px; }
+        .jssora13l.jssora13ldn { background-position: -250px -35px; }
+        .jssora13r.jssora13rdn { background-position: -310px -35px; }
+        .jssora13l.jssora13lds { background-position: -10px -35px; opacity: .3; pointer-events: none; }
+        .jssora13r.jssora13rds { background-position: -70px -35px; opacity: .3; pointer-events: none; }
+        

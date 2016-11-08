@@ -1,0 +1,149 @@
+    /*phan header*/
+.container-fluid {background-image: url(http://dl10.glitter-graphics.net/pub/729/729640hho61mz0eq.gif);
+height: 30px;
+}
+/*phan chu nhap nhay*/
+ @keyframes my { 
+	 0% { color:green;  }
+	 10%{color:red;}
+	 20%{color:violet;}
+	 30% { color: yellow;  }
+	 50% { color: brown;  } 
+	 75% { color: black;  } 
+	 100% { color: white;  } 
+ } 
+ a#xz, .footer{
+         font-size:30px;
+         font-weight:bold;
+	 animation: my 2000ms infinite;
+}
+
+body {
+position: relative;
+padding-top: 51px;
+  }
+
+.footer{
+    position:relative;
+    text-align: center;
+    width:80%;
+    height:20px;
+    color: #fff;
+} 
+
+a#link0{
+    color: #4787be;
+    width:170px;
+    height:auto;
+    border-collapse: separate;
+        text-align: center;
+
+}
+
+a:hover#link0, a:active#link0 {
+    color: red;
+    border: 0.1px ;
+    border-top-color: green;
+    border-bottom-color:blue;
+    border-right-color:yellow;
+    border-left-color:#ff7914;
+    border-style:dashed;
+}
+
+a#titlelogin{
+    color: blue;
+}
+
+
+div#indexx {
+    text-align: center;
+    color: red
+}
+
+
+
+
+
+/*Loading*/
+
+/* Center the loader */
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 366px;
+    z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid pink;
+  border-radius: 50%;
+ border-top: 16px solid blue;
+ border-right: 16px solid green;
+ border-bottom: 16px solid red;
+ border-left: 16px solid pink;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 }
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom {
+  from{ bottom:-100px; opacity:0 }
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
