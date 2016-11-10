@@ -1,5 +1,6 @@
     <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 300px; overflow: hidden; visibility: hidden;">
     <div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px; width: 1300px; height: 300px;">
+        <div><img u="image" src="/img/10.png" /></div>
         <div><a href="http://facebook.com/xzouserr" target="_blank"><img u="image" src="/slide/img/alila/02.jpg" /></a></div>
         <div><img u="image" src="/slide/img/alila/03.jpg" /></div>
         <div><img u="image" src="/slide/img/alila/01.jpg" /></div>

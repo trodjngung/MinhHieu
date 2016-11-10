@@ -1,4 +1,5 @@
 <?php
+App::uses('Controller', 'Controller');
 App::uses('AppController', 'Controller');
 class UsersController extends AppController {
                         var $layout = "Users";

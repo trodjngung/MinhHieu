@@ -1,6 +1,6 @@
 <?php
+App::uses('Controller', 'Controller');
 App::uses('AppController', 'Controller');
-
 class PostsController extends AppController {
     public $helpers = array('Html', 'Form', 'Flash');
     public $components = array('Flash');
@@ -118,7 +118,7 @@ public function add(){
     $this->set('post', $post);
 
     if ($this->request->is(array('post', 'put'))) {
-        $this->Post->id = $id;
+            $this->Post->id = $id;
             $_FILES = $this->request->data;
             $target_dir = "uploads/";
             $target_file = $target_dir . basename($_FILES['Post']['fileUpload']['name']);
@@ -138,13 +138,13 @@ public function add(){
                 if(move_uploaded_file($_FILES['Post']["fileUpload"]["tmp_name"], $target_file)){
                     $_FILES['Post']['fileUpload']=$target_file;
 
-        if ($this->Post->save($_FILES)) {
-        $this->Flash->success(__('Bạn đã edit file thành công'));
-        return $this->redirect(array('action' => 'index'));
-                }  else {
-        $this->Flash->error(__('File bạn vừa upload gặp sự cố.'));
-                }
-            }
+                if ($this->Post->save($_FILES)) {
+                $this->Flash->success(__('Bạn đã edit file thành công'));
+                return $this->redirect(array('action' => 'index'));
+                        }  else {
+                $this->Flash->error(__('File bạn vừa upload gặp sự cố.'));
+                        }
+                    }
         }
     }
 

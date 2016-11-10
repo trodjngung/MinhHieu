@@ -146,7 +146,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="javascript:void(0)"><img src="/Page/img/logo.png" alt=""></a>
+              <a class="navbar-brand" href="javascript:void(0)"><img src="/Page/img/shop1.png" alt=""></a>
             </div>
         
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -704,11 +704,6 @@
               <div class="footerLink">
                 <h5>Accessories</h5>
                 <ul class="list-unstyled">
-                  <li><a href="#">Body care </a></li>
-                  <li><a href="#">Chambray </a></li>
-                  <li><a href="#">Floral </a></li>
-                  <li><a href="#">Rejuvination </a></li>
-                  <li><a href="#">Shaving </a></li>
                   <li><a href="#">Toilette </a></li>
                 </ul>
               </div>
@@ -718,9 +713,6 @@
                 <h5>BRANDS</h5>
                 <ul class="list-unstyled">
                   <li><a href="#">Barbour </a></li>
-                  <li><a href="#">Brioni </a></li>
-                  <li><a href="#">Oliver Spencer</a></li>
-                  <li><a href="#">Belstaff</a></li>
                 </ul>
               </div>
             </div>
@@ -729,11 +721,6 @@
                 <h5>Accessories</h5>
                 <ul class="list-unstyled">
                   <li><a href="#">Body care </a></li>
-                  <li><a href="#">Chambray </a></li>
-                  <li><a href="#">Floral </a></li>
-                  <li><a href="#">Rejuvination </a></li>
-                  <li><a href="#">Shaving </a></li>
-                  <li><a href="#">Toilette </a></li>
                 </ul>
               </div>
             </div>
@@ -741,8 +728,7 @@
               <div class="footerLink">
                 <h5>Get in Touch</h5>
                 <ul class="list-unstyled">
-                  <li>Call us at (555)-555-5555</li>
-                  <li><a href="mailto:support@iamabdus.com">support@iamabdus.com</a></li>
+                  <li><a href="#">xzouserr@gmail.com</a></li>
                 </ul>
               </div>
             </div>
@@ -849,7 +835,7 @@
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
             <div class="media">
               <div class="media-left">
-                <img class="media-object" src="/Page/img/products/quick-view/quick-view-01.jpg" alt="Image">
+                <img class="media-object" src="/Page/img/quick-view/quick-view-01.jpg" alt="Image">
               </div>
               <div class="media-body">
                 <h2>Old Skool Navy</h2>

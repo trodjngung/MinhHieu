@@ -14,14 +14,17 @@
 
 
 <body>
+		<?php echo $this->element('home/home') ?>
+	    <?php echo $this->element('home/sidebar') ?>
+		<?php echo $this->element('home/footer') ?>
 
 
 	 	<?php echo $this->fetch('content'); ?>
-	 			 	
-		<?php echo $this->element('home/home') ?>
+
+
 		<div class="push" style="height: 200px"></div>
 
-		<?php echo $this->element('home/footer') ?>
+
 </body>
 
 

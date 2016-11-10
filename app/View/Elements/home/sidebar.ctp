@@ -1,6 +1,5 @@
 <!-- sidebar menu-->
 <div id="wrapper">        
-    <div id="wrapper">
         <div id="sidebar-wrapper" >
         <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav" >
@@ -8,7 +7,7 @@
                         <a href="/admin/home" id="link0" >Home</a>
                 </li>
                 <li>
-                         <a href="javascript:;" data-toggle="collapse" data-target="#demo" id="link0">Manager</a>
+                     <a href="javascript:;" data-toggle="collapse" data-target="#demo" id="link0">Manager</a>
                 </li>
                         <ul id="demo" class="collapse">
                             <li>
@@ -40,5 +39,5 @@
                 </ul>
             </div>
                 </div>
-                </div>
+                    </div>
 <!-- /#sidebar menu -->

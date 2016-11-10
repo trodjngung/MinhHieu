@@ -1,4 +1,7 @@
 <?php
+App::uses('Controller', 'Controller');
+App::uses('AppController', 'Controller');
+
 class AdminController extends AppController {
 	var $layout = "Admins";
 	public function index() {
