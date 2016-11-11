@@ -2,7 +2,7 @@
 
 
 <h1 style="text-align: center; font-size: 600%;font-family:fantasy;color: red">List Post</h1>
-
+<?php echo "Anh Trung thay doi dong nay";?>
 <div class="users index">
 <table>
     <tr>
